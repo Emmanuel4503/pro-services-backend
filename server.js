@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-const connectDB = require("../LP Backend/config/mongoDB")
+const connectDB = require("./config/mongoDB")
 connectDB();
 
 
